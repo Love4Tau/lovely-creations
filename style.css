@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    top: 0;
+    color: antiquewhite;
+}
+
+body {
+    height: 100vh;
+    background-color: darkgrey;
+}
+
+.pic {
+    background-image: url("./images/BG1.jpeg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-position: center;
+}
+
+header {
+    color: antiquewhite;
+    background-color: darkgrey;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+header nav {
+    list-style-type: none;
+    float: right;
+}
+
+header nav li {
+    display: inline-block;
+    margin-inline-end: 25px;
+    font-size: 25px;
+}
+
+header nav li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+main { 
+    margin: 0 25px;
+}
+
+section {
+    display: flex;
+}
+
+figure {
+    margin-left: 20px;
+}
+
+.myPic {
+    height: 200px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+}

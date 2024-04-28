@@ -45,7 +45,7 @@ header nav li {
 }
 
 header nav li a {
-    color: antiquewhite;
+    color: white;
     text-decoration: none;
 }
 
@@ -114,6 +114,8 @@ footer ul li {
     opacity: 0.5;
 }
 
-.footerNav ul li a {
+.footerNav ul li a,
+.footerNav ul li p{
     text-decoration: none;
+    color: white;
 }

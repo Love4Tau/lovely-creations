@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lovely's Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>Lovely's Creations</h1>
+        <!-- Wraaped header in container class to apply styling/padding -->
+        <div class="container">
+            <h1>Lovely's Creations</h1>
+            <!-- Header Nav links -->
         <nav>
             <ul>
                 <li>
@@ -22,33 +27,39 @@
                 </li>
             </ul>
         </nav>
+        </div>
     </header>
-    <div class="pic"></div>
+    <aside>
+        <section id="about">
+            <h3>About Me</h3>
+        </section>
+        <section id="work">
+            <h3>My work</h3>
+        </section>
+    </aside>
     <main>
         <section>
-            <h2 id="about">About Me</h2>
-            <figure>
-                <img src="./images/Portrait.JPG" alt="Picture of me" class="myPic"/>
-                    <figcaption>Lovely Tautua'a</figcaption>
-            </figure>
-            <p></p>
-        </section>
-        <section>
-            <h2 id="work">My Work</h2>
+            <h3>About</h3>
         </section>
     </main>
     <footer>
-        <h2 id="contact">Contact Me</h2>
-        <nav class="contact">
-            <ul>
-                <li>
-                    <p>Mobile: <a href="tel: 5555555555">555-555-5555</a> </p>
-                </li>
-                <li>
-                    <p>Email: <a href="mailto: lovelytau650@gmail.com">lovelytau650@gmail.com</a></p>
-                </li>
-            </ul>
-        </nav>
+        <div class="socialMedia" id="contact">
+            <a href="https://www.facebook.com/lovely.tautuaa.3" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/lovelytautuaa/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/lovely-tautuaa/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="footerNav">
+            <nav>
+                <ul>
+                    <li>
+                        <p>Mobile: <a href="tel: 5555555555">555-555-5555</a> </p>
+                    </li>
+                    <li>
+                        <p>Email: <a href="mailto: lovelytau650@gmail.com">lovelytau650@gmail.com</a></p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </body>
 </html>

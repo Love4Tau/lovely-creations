@@ -9,18 +9,23 @@ body {
     background-color: darkgrey;
 }
 
-.pic {
-    background-image: url("./images/BG1.jpeg");
-    background-size: cover;
-    height: 500px;
+header {
     width: 100%;
-    margin-bottom: 20px;
+    height: 20%;
+    background-image: url(./images/BG1.jpeg);
+    background-size: cover;
     background-position: center;
 }
 
-header {
-    color: antiquewhite;
-    background-color: darkgrey;
+.container {
+    padding: 10px 10%;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: inline-end;
 }
 
 header h1 {
@@ -44,27 +49,71 @@ header nav li a {
     text-decoration: none;
 }
 
-main { 
-    margin: 0 25px;
-}
-
-section {
-    display: flex;
-}
-
-figure {
+aside {
+    width: 20%;
     margin-left: 20px;
+    float: right;
+    height: 100vh;
 }
 
-.myPic {
-    height: 200px;
-    border-radius: 15px;
+main { 
+    min-height: 100vh;
+    margin-left: 15px;
+    width: 75%;
+    display: inline-block
+}
+
+/* Footer Styling */
+body > * {
+    flex-shrink: 0; /* Prevents footer from shrinking smaller than it's content*/
 }
 
 footer {
-    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    padding: 40px 25px 15px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedia a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialMedia a i {
+    font-size: 2em;
+    color: purple;
+    opacity: 0.9;
+}
+
+.socialMedia a:hover {
+    background-color: black;
+    transition: 1s;
+}
+
+.footerNav {
+    margin: 25px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
 
 footer ul li {
-    list-style-type: none;
+    margin: 10px;
+    font-size: 1em;
+    opacity: 0.5;
+}
+
+.footerNav ul li a {
+    text-decoration: none;
 }

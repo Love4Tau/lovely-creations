@@ -7,6 +7,10 @@ The Purpose of creating this portfolio is to showcase the skills/work I've done 
 
 I learned how to use font awesome to easily create a nice footer with clickable links that route to my social media. I also learned how to make my website more responsive by using media queries to manipulate certain elements to adjust to smaller screens!
 
+## Deployed Application
+
+![Image Alt text](images/Portfolio.jpeg)
+
 
 ## Installation
 
